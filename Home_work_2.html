@@ -102,7 +102,7 @@
             <input id="password" type="password">
         </div>
         <div>
-            <input type="submit">
+            <input type="submit" value="Submit">
         </div>
         <div>
             <input type="reset">
@@ -129,22 +129,13 @@
             <input type="button" value="Click">
         </div>
         <div>
-            <label for="html">
-                HTML
-            </label>
-            <input id="html" type="radio">
-        </div> 
-        <div>
-            <label for="CSS">
-                css
-            </label>
-            <input id="CSS" type="radio">
-        </div>
-        <div>
-            <label for="JS">
-                JS
-            </label>
-            <input type="radio" id="JS">
+            <label for="html">HTML</label>
+            <input id="html" type="radio" name="courses">
+            <label for="CSS">css</label>
+            <input id="CSS" type="radio" name="courses">
+            <label for="JS">JS</label>
+            <input type="radio" id="JS" name="courses">
+            <button> Choose </button>
         </div>
         <div>
             <label for="color">
@@ -242,6 +233,12 @@
                 Select week
             </label>
             <input type="week" name="week" id="week">
+        </div>
+        <div>
+            <label for="text-area">
+                Text area
+            </label>
+            <textarea name="text" id="text-area" cols="30" rows="10"></textarea>
         </div>
     </form>
 </body>
